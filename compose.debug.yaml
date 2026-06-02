@@ -1,0 +1,6 @@
+services:
+  pasha:
+    image: pasha
+    build:
+      context: .
+      dockerfile: ./Dockerfile
